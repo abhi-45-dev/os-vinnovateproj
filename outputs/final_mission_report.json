@@ -1,0 +1,30 @@
+{
+  "mission_status": "SUCCESS",
+  "eve_found": true,
+  "termination_reason": "EVE successfully located at (9, 9) with status STANDBY.",
+  "total_steps": 18,
+  "scans_performed": 2,
+  "battery_consumed": 21.0,
+  "time_consumed": 19,
+  "battery_remaining": 79.0,
+  "time_remaining": 101,
+  "final_inferred_location": [
+    9,
+    9
+  ],
+  "final_inferred_status": "STANDBY",
+  "location_confidence": 1.0,
+  "status_confidence": 1.0,
+  "ground_truth_location": [
+    9,
+    9
+  ],
+  "ground_truth_status": "STANDBY",
+  "location_error_distance": 0.0,
+  "matches_ground_truth": true,
+  "evidence_gathered": [
+    "Step 6: Found BEACON_PING - Transponder bounce echo recorded from compacted scrap tower.",
+    "Step 17: Found STATUS_LOG - Direct sensor scan confirms EVE diagnostic status: STANDBY"
+  ],
+  "recommended_next_action": "Deploy transport/extraction crawler directly to coordinates (9, 9). EVE status confirmed as STANDBY."
+}

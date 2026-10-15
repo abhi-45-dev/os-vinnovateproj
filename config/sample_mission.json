@@ -1,0 +1,79 @@
+{
+  "grid_width": 12,
+  "grid_height": 12,
+  "walle_start": [1, 1],
+  "recharge_stations": [
+    [1, 1],
+    [6, 6]
+  ],
+  "obstacles": [
+    [3, 2],
+    [3, 3],
+    [3, 4],
+    [4, 4],
+    [7, 7],
+    [7, 8],
+    [8, 7]
+  ],
+  "initial_signal": {
+    "strength": 0.32,
+    "bearing": 48.0,
+    "noisy_distance": 10.5
+  },
+  "battery_capacity": 100.0,
+  "starting_battery": 100.0,
+  "time_budget": 120,
+  "action_costs": {
+    "move_battery_cost": 1.0,
+    "move_time_cost": 1,
+    "scan_battery_cost": 3.0,
+    "scan_time_cost": 2,
+    "wait_battery_cost": 0.2,
+    "wait_time_cost": 1,
+    "recharge_battery_rate": 20.0,
+    "recharge_time_cost": 1
+  },
+  "sensor_config": {
+    "scan_radius": 3,
+    "passive_clue_radius": 1,
+    "signal_noise_std": 0.3,
+    "bearing_noise_std": 10.0
+  },
+  "clues": [
+    {
+      "clue_id": "clue_beacon_alpha",
+      "clue_type": "BEACON_PING",
+      "description": "Transponder bounce echo recorded from compacted scrap tower.",
+      "coordinates": [3, 5],
+      "data": {
+        "estimated_distance": 6.7,
+        "noise_std": 0.8
+      }
+    },
+    {
+      "clue_id": "clue_ion_trail",
+      "clue_type": "ION_TRAIL",
+      "description": "Anti-gravity ion ionization trail heading northeast.",
+      "coordinates": [5, 5],
+      "data": {
+        "heading_degrees": 45.0,
+        "spread_degrees": 25.0
+      }
+    },
+    {
+      "clue_id": "clue_probe_telemetry",
+      "clue_type": "STATUS_LOG",
+      "description": "Probe telemetry burst decoded: diagnostic mode STANDBY active.",
+      "coordinates": [7, 6],
+      "data": {
+        "status_fragment": "STANDBY",
+        "confidence": 0.95
+      }
+    }
+  ],
+  "eve_location": [9, 9],
+  "eve_status": "STANDBY",
+  "confidence_threshold": 0.70,
+  "max_steps": 100,
+  "random_seed": 42
+}

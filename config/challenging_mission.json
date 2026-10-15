@@ -1,0 +1,75 @@
+{
+  "grid_width": 16,
+  "grid_height": 16,
+  "walle_start": [0, 0],
+  "recharge_stations": [
+    [0, 0],
+    [8, 8],
+    [14, 2]
+  ],
+  "obstacles": [
+    [4, 0], [4, 1], [4, 2], [4, 3], [4, 4],
+    [10, 8], [10, 9], [10, 10], [10, 11], [10, 12],
+    [11, 8], [12, 8]
+  ],
+  "initial_signal": {
+    "strength": 0.20,
+    "bearing": 42.0,
+    "noisy_distance": 18.0
+  },
+  "battery_capacity": 80.0,
+  "starting_battery": 60.0,
+  "time_budget": 160,
+  "action_costs": {
+    "move_battery_cost": 1.2,
+    "move_time_cost": 1,
+    "scan_battery_cost": 3.5,
+    "scan_time_cost": 2,
+    "wait_battery_cost": 0.3,
+    "wait_time_cost": 1,
+    "recharge_battery_rate": 25.0,
+    "recharge_time_cost": 1
+  },
+  "sensor_config": {
+    "scan_radius": 3,
+    "passive_clue_radius": 1,
+    "signal_noise_std": 0.4,
+    "bearing_noise_std": 12.0
+  },
+  "clues": [
+    {
+      "clue_id": "clue_south_debris",
+      "clue_type": "SECTOR_CLEAR",
+      "description": "Scanned waste canyon: zero electromagnetic activity in Sector (0-4, 0-6).",
+      "coordinates": [2, 3],
+      "data": {
+        "bounds": [0, 0, 4, 6]
+      }
+    },
+    {
+      "clue_id": "clue_beacon_central",
+      "clue_type": "BEACON_PING",
+      "description": "Secondary ping transponder echo detected from central observation pillar.",
+      "coordinates": [7, 7],
+      "data": {
+        "estimated_distance": 8.5,
+        "noise_std": 1.0
+      }
+    },
+    {
+      "clue_id": "clue_status_critical",
+      "clue_type": "STATUS_LOG",
+      "description": "Emergency status packet intercepted: EVE power reserve critically low.",
+      "coordinates": [9, 9],
+      "data": {
+        "status_fragment": "CRITICAL",
+        "confidence": 0.92
+      }
+    }
+  ],
+  "eve_location": [14, 14],
+  "eve_status": "CRITICAL",
+  "confidence_threshold": 0.70,
+  "max_steps": 140,
+  "random_seed": 1337
+}

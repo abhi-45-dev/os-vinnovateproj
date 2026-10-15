@@ -1,0 +1,725 @@
+[
+  {
+    "step_number": 1,
+    "agent_position": [
+      1,
+      1
+    ],
+    "chosen_action": "SCAN",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 97.0,
+    "time_remaining": 118,
+    "action_result": "Scanned radius 3 from (1, 1).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.0512,
+        "bearing": 44.23,
+        "distance": 11.44
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        8,
+        9
+      ],
+      "probability": 0.18059037861086555,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      8,
+      9
+    ],
+    "estimated_best_probability": 0.18059037861086555,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 3.574,
+    "decision_explanation": "SCAN selected: high local belief mass (0.00) and spatial entropy (3.57). Sufficient energy margin (+96.0)."
+  },
+  {
+    "step_number": 2,
+    "agent_position": [
+      1,
+      1
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 96.0,
+    "time_remaining": 117,
+    "action_result": "Moved MOVE_NORTH to (1, 2).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.0872,
+        "bearing": 37.98,
+        "distance": 10.75
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.28140848915575556,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.28140848915575556,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 3.05,
+    "decision_explanation": "Selected MOVE_NORTH to (1, 2) (Utility: 20.11, BeliefPull: 0.201, RecencyPenalty: 0.0)."
+  },
+  {
+    "step_number": 3,
+    "agent_position": [
+      1,
+      2
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 95.0,
+    "time_remaining": 116,
+    "action_result": "Moved MOVE_EAST to (2, 2).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.1681,
+        "bearing": 47.79,
+        "distance": 9.94
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.40163571179037844,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.40163571179037844,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 2.615,
+    "decision_explanation": "Selected MOVE_EAST to (2, 2) (Utility: 22.89, BeliefPull: 0.229, RecencyPenalty: 0.0)."
+  },
+  {
+    "step_number": 4,
+    "agent_position": [
+      2,
+      2
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 94.0,
+    "time_remaining": 115,
+    "action_result": "Moved MOVE_NORTH to (2, 3).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.0872,
+        "bearing": 41.93,
+        "distance": 9.46
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.5288627093060747,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.5288627093060747,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 2.203,
+    "decision_explanation": "Selected MOVE_NORTH to (2, 3) (Utility: 25.26, BeliefPull: 0.253, RecencyPenalty: 0.0)."
+  },
+  {
+    "step_number": 5,
+    "agent_position": [
+      2,
+      3
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 93.0,
+    "time_remaining": 114,
+    "action_result": "Moved MOVE_NORTH to (2, 4).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.2185,
+        "bearing": 38.49,
+        "distance": 8.24
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.6553804646820383,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.6553804646820383,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 1.763,
+    "decision_explanation": "Selected MOVE_NORTH to (2, 4) (Utility: 26.90, BeliefPull: 0.269, RecencyPenalty: 0.0)."
+  },
+  {
+    "step_number": 6,
+    "agent_position": [
+      2,
+      4
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 92.0,
+    "time_remaining": 113,
+    "action_result": "Moved MOVE_NORTH to (2, 5).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.1863,
+        "bearing": 28.47,
+        "distance": 8.08
+      },
+      "clues_discovered": [
+        "clue_beacon_alpha"
+      ]
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.7340217595775289,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.7340217595775289,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 1.417,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.73) via MOVE_NORTH. Distance: 12 steps."
+  },
+  {
+    "step_number": 7,
+    "agent_position": [
+      2,
+      5
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 91.0,
+    "time_remaining": 112,
+    "action_result": "Moved MOVE_NORTH to (2, 6).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.2226,
+        "bearing": 19.45,
+        "distance": 7.09
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.7421678048011441,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.7421678048011441,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 1.288,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.74) via MOVE_NORTH. Distance: 11 steps."
+  },
+  {
+    "step_number": 8,
+    "agent_position": [
+      2,
+      6
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 90.0,
+    "time_remaining": 111,
+    "action_result": "Moved MOVE_NORTH to (2, 7).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.1962,
+        "bearing": 13.06,
+        "distance": 7.59
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.7728739118870558,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.7728739118870558,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 1.144,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.77) via MOVE_NORTH. Distance: 10 steps."
+  },
+  {
+    "step_number": 9,
+    "agent_position": [
+      2,
+      7
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 89.0,
+    "time_remaining": 110,
+    "action_result": "Moved MOVE_NORTH to (2, 8).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.1426,
+        "bearing": 17.52,
+        "distance": 7.16
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.8761594729513974,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.8761594729513974,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.697,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.88) via MOVE_NORTH. Distance: 9 steps."
+  },
+  {
+    "step_number": 10,
+    "agent_position": [
+      2,
+      8
+    ],
+    "chosen_action": "MOVE_NORTH",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 88.0,
+    "time_remaining": 109,
+    "action_result": "Moved MOVE_NORTH to (2, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.0683,
+        "bearing": 341.83,
+        "distance": 7.2
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9472647706627897,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9472647706627897,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.378,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.95) via MOVE_NORTH. Distance: 8 steps."
+  },
+  {
+    "step_number": 11,
+    "agent_position": [
+      2,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 87.0,
+    "time_remaining": 108,
+    "action_result": "Moved MOVE_EAST to (3, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.3142,
+        "bearing": 349.01,
+        "distance": 5.78
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9008696343687489,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9008696343687489,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.494,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.90) via MOVE_EAST. Distance: 7 steps."
+  },
+  {
+    "step_number": 12,
+    "agent_position": [
+      3,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 86.0,
+    "time_remaining": 107,
+    "action_result": "Moved MOVE_EAST to (4, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.3536,
+        "bearing": 345.37,
+        "distance": 5.24
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.842944505877554,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.842944505877554,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.643,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.84) via MOVE_EAST. Distance: 6 steps."
+  },
+  {
+    "step_number": 13,
+    "agent_position": [
+      4,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 85.0,
+    "time_remaining": 106,
+    "action_result": "Moved MOVE_EAST to (5, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.4714,
+        "bearing": 358.97,
+        "distance": 3.64
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.6550486706820489,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.6550486706820489,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.936,
+    "decision_explanation": "Selected MOVE_EAST to (5, 9) (Utility: 45.20, BeliefPull: 0.452, RecencyPenalty: 0.0)."
+  },
+  {
+    "step_number": 14,
+    "agent_position": [
+      5,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 84.0,
+    "time_remaining": 105,
+    "action_result": "Moved MOVE_EAST to (6, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.6054,
+        "bearing": 9.82,
+        "distance": 3.04
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.8283308977494888,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.8283308977494888,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.665,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.83) via MOVE_EAST. Distance: 4 steps."
+  },
+  {
+    "step_number": 15,
+    "agent_position": [
+      6,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 83.0,
+    "time_remaining": 104,
+    "action_result": "Moved MOVE_EAST to (7, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.7574,
+        "bearing": 7.8,
+        "distance": 2.13
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9937854110181826,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9937854110181826,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.055,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=0.99) via MOVE_EAST. Distance: 3 steps."
+  },
+  {
+    "step_number": 16,
+    "agent_position": [
+      7,
+      9
+    ],
+    "chosen_action": "MOVE_EAST",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 82.0,
+    "time_remaining": 103,
+    "action_result": "Moved MOVE_EAST to (8, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.9317,
+        "bearing": 351.39,
+        "distance": 0.77
+      },
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9999322438206587,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9999322438206587,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.001,
+    "decision_explanation": "Approaching candidate EVE location (9, 9) (P=1.00) via MOVE_EAST. Distance: 2 steps."
+  },
+  {
+    "step_number": 17,
+    "agent_position": [
+      8,
+      9
+    ],
+    "chosen_action": "SCAN",
+    "action_args": {
+      "reported_location": null,
+      "reported_status": null
+    },
+    "battery_remaining": 79.0,
+    "time_remaining": 101,
+    "action_result": "Scanned radius 3 from (8, 9).",
+    "observation_summary": {
+      "signal": {
+        "strength": 0.9693,
+        "bearing": 358.5,
+        "distance": 1.09
+      },
+      "clues_discovered": [
+        "direct_eve_diagnostic"
+      ]
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9999999412886502,
+      "inferred_status": "OPERATIONAL"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9999999412886502,
+    "inferred_status": "OPERATIONAL",
+    "status_confidence": 0.1667,
+    "entropy": 0.0,
+    "decision_explanation": "Target (9, 9) reached. Conducting proximity verification SCAN to identify EVE status."
+  },
+  {
+    "step_number": 18,
+    "agent_position": [
+      8,
+      9
+    ],
+    "chosen_action": "REPORT_FOUND",
+    "action_args": {
+      "reported_location": [
+        9,
+        9
+      ],
+      "reported_status": "STANDBY"
+    },
+    "battery_remaining": 79.0,
+    "time_remaining": 101,
+    "action_result": "SUCCESS: EVE found at (9, 9).",
+    "observation_summary": {
+      "signal": null,
+      "clues_discovered": []
+    },
+    "belief_summary": {
+      "top_candidate": [
+        9,
+        9
+      ],
+      "probability": 0.9999999875684278,
+      "inferred_status": "STANDBY"
+    },
+    "estimated_best_candidate": [
+      9,
+      9
+    ],
+    "estimated_best_probability": 0.9999999875684278,
+    "inferred_status": "STANDBY",
+    "status_confidence": 1.0,
+    "entropy": 0.0,
+    "decision_explanation": "REPORT_FOUND triggered: Target (9, 9) reached with confidence 1.00 (status: STANDBY, conf: 1.00)."
+  }
+]
