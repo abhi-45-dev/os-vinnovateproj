@@ -208,13 +208,28 @@ pip install -r requirements.txt
 
 ## 7. Execution Commands
 
-### 7.1 Run the Sample Mission
+### 7.1 Launch the Interactive Web Dashboard
+Run the futuristic Mission Control Web UI on your Mac:
+```bash
+python3 scripts/serve_web.py --port 8000
+```
+Then navigate to: **[http://localhost:8000](http://localhost:8000)**
+
+Features:
+- **Interactive 2D Grid & Playback**: Play, pause, step forward/backward through WALL-E's search with adjustable speed.
+- **Live Bayesian Heatmap**: Watch posterior probabilities update across cells in real-time.
+- **Dynamic Telemetry Gauges**: Live battery percentage, time remaining, spatial entropy ($H(L)$), and RF radar bearing needle.
+- **Inspectable Reasoning Stream**: Inspect WALL-E's exact utility rationale at every step.
+- **EVE Ground-Truth Audit Toggle**: Reveal EVE's actual location and status post-mission.
+- **Built-in Benchmark Modal**: Interactive view of 20-run benchmark statistics.
+
+### 7.2 Run the Sample Mission (CLI)
 Execute the deterministic sample mission end-to-end:
 ```bash
 python3 scripts/run_mission.py --config config/sample_mission.json --visualize
 ```
 
-### 7.2 Run the Challenging Scenario
+### 7.3 Run the Challenging Scenario (CLI)
 Execute a 16x16 mission with obstacles and mid-course battery recharge:
 ```bash
 python3 scripts/run_mission.py --config config/challenging_mission.json --output-dir outputs/challenging
