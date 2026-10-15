@@ -4,9 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests: 17 Passed](https://img.shields.io/badge/tests-17%20passed-brightgreen.svg)]()
 [![Code Architecture: Modular](https://img.shields.io/badge/architecture-modular-orange.svg)]()
+[![Live Demo on Vercel](https://img.shields.io/badge/Vercel-Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vinn-alpha.vercel.app)
 
 > **OS Vinnovate Autonomous Agent Challenge Deliverable**  
 > **Repository:** [https://github.com/abhi-45-dev/os-vinnovateproj](https://github.com/abhi-45-dev/os-vinnovateproj)  
+> **Live Web App:** [https://vinn-alpha.vercel.app](https://vinn-alpha.vercel.app)  
 > **Author:** Abhiram ([@abhi-45-dev](https://github.com/abhi-45-dev))
 
 ---
@@ -208,12 +210,14 @@ pip install -r requirements.txt
 
 ## 7. Execution Commands
 
-### 7.1 Launch the Interactive Web Dashboard
-Run the futuristic Mission Control Web UI on your Mac:
-```bash
-python3 scripts/serve_web.py --port 8000
-```
-Then navigate to: **[http://localhost:8000](http://localhost:8000)**
+### 7.1 Interactive Web Dashboard
+The web dashboard is deployed live on Vercel and can also be run locally on your Mac:
+- **🌐 Live Production URL**: **[https://vinn-alpha.vercel.app](https://vinn-alpha.vercel.app)**
+- **💻 Run Locally on Mac**:
+  ```bash
+  python3 scripts/serve_web.py --port 8000
+  ```
+  Then open: **[http://localhost:8000](http://localhost:8000)**
 
 Features:
 - **Interactive 2D Grid & Playback**: Play, pause, step forward/backward through WALL-E's search with adjustable speed.

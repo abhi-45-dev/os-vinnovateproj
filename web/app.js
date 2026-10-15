@@ -215,7 +215,10 @@ async function loadScenario(scenarioName) {
   pause();
   setLiveStatus("LOADING...", "#3b82f6");
   try {
-    const res = await fetch(`/api/load_scenario?name=${encodeURIComponent(scenarioName)}`);
+    let res = await fetch(`/api/load_scenario?name=${encodeURIComponent(scenarioName)}`).catch(() => null);
+    if (!res || !res.ok) {
+      res = await fetch(`data/${scenarioName}.json`);
+    }
     if (!res.ok) throw new Error("Failed to load scenario data");
     state.simData = await res.json();
     onDataLoaded();
@@ -235,11 +238,15 @@ async function runCustomSimulation() {
   };
 
   try {
-    const res = await fetch("/api/run_simulation", {
+    let res = await fetch("/api/run_simulation", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
-    });
+    }).catch(() => null);
+
+    if (!res || !res.ok) {
+      res = await fetch(`data/${state.scenario}.json`);
+    }
     if (!res.ok) throw new Error("Simulation failed");
     state.simData = await res.json();
     onDataLoaded();
@@ -650,7 +657,10 @@ function renderMissionReport(report) {
 async function openBenchmarkModal() {
   elements.benchmarkModal.style.display = "flex";
   try {
-    const res = await fetch("/api/benchmark");
+    let res = await fetch("/api/benchmark").catch(() => null);
+    if (!res || !res.ok) {
+      res = await fetch("data/benchmark_results.json");
+    }
     if (!res.ok) throw new Error("Failed to load benchmark results");
     const data = await res.json();
     renderBenchmarkTable(data.summary);

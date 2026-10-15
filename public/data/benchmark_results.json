@@ -1,0 +1,579 @@
+{
+  "summary": {
+    "BayesianAutonomous": {
+      "runs": 20,
+      "success_rate_pct": 100.0,
+      "budget_exhaustion_rate_pct": 0.0,
+      "avg_steps": 18.15,
+      "avg_scans": 2.05,
+      "avg_battery_consumed": 21.25,
+      "avg_location_error": 0.0
+    },
+    "GreedySignal": {
+      "runs": 20,
+      "success_rate_pct": 0.0,
+      "budget_exhaustion_rate_pct": 0.0,
+      "avg_steps": 16.15,
+      "avg_scans": 0.0,
+      "avg_battery_consumed": 15.15,
+      "avg_location_error": 1.05
+    },
+    "RandomWalk": {
+      "runs": 20,
+      "success_rate_pct": 0.0,
+      "budget_exhaustion_rate_pct": 0.0,
+      "avg_steps": 36.05,
+      "avg_scans": 2.9,
+      "avg_battery_consumed": 40.85,
+      "avg_location_error": 9.17
+    }
+  },
+  "runs": {
+    "BayesianAutonomous": [
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 21,
+        "scans": 3,
+        "battery_consumed": 26.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      },
+      {
+        "success": true,
+        "steps": 18,
+        "scans": 2,
+        "battery_consumed": 21.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "SUCCESS"
+      }
+    ],
+    "GreedySignal": [
+      {
+        "success": false,
+        "steps": 15,
+        "scans": 0,
+        "battery_consumed": 14.0,
+        "location_error": 2.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 18,
+        "scans": 0,
+        "battery_consumed": 17.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 15,
+        "scans": 0,
+        "battery_consumed": 14.0,
+        "location_error": 2.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 17,
+        "scans": 0,
+        "battery_consumed": 16.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 15,
+        "scans": 0,
+        "battery_consumed": 14.0,
+        "location_error": 2.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 18,
+        "scans": 0,
+        "battery_consumed": 17.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 17,
+        "scans": 0,
+        "battery_consumed": 16.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 15,
+        "scans": 0,
+        "battery_consumed": 14.0,
+        "location_error": 2.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 17,
+        "scans": 0,
+        "battery_consumed": 16.0,
+        "location_error": 0.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 16,
+        "scans": 0,
+        "battery_consumed": 15.0,
+        "location_error": 1.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      }
+    ],
+    "RandomWalk": [
+      {
+        "success": false,
+        "steps": 40,
+        "scans": 2,
+        "battery_consumed": 43.0,
+        "location_error": 5.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 35,
+        "scans": 4,
+        "battery_consumed": 42.0,
+        "location_error": 8.94427190999916,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 48,
+        "scans": 5,
+        "battery_consumed": 57.0,
+        "location_error": 11.313708498984761,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 43,
+        "scans": 2,
+        "battery_consumed": 46.0,
+        "location_error": 9.486832980505138,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 31,
+        "scans": 3,
+        "battery_consumed": 36.0,
+        "location_error": 6.4031242374328485,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 33,
+        "scans": 2,
+        "battery_consumed": 36.0,
+        "location_error": 10.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "scans": 3,
+        "battery_consumed": 45.0,
+        "location_error": 7.0710678118654755,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 32,
+        "scans": 2,
+        "battery_consumed": 35.0,
+        "location_error": 10.63014581273465,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 39,
+        "scans": 3,
+        "battery_consumed": 44.0,
+        "location_error": 6.708203932499369,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 34,
+        "scans": 3,
+        "battery_consumed": 39.0,
+        "location_error": 8.94427190999916,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 33,
+        "scans": 2,
+        "battery_consumed": 36.0,
+        "location_error": 9.899494936611665,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 34,
+        "scans": 0,
+        "battery_consumed": 33.0,
+        "location_error": 8.06225774829855,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 42,
+        "scans": 4,
+        "battery_consumed": 49.0,
+        "location_error": 10.816653826391969,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 31,
+        "scans": 3,
+        "battery_consumed": 36.0,
+        "location_error": 8.54400374531753,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 33,
+        "scans": 2,
+        "battery_consumed": 36.0,
+        "location_error": 6.324555320336759,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 32,
+        "scans": 2,
+        "battery_consumed": 35.0,
+        "location_error": 12.041594578792296,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 33,
+        "scans": 5,
+        "battery_consumed": 42.0,
+        "location_error": 12.041594578792296,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 37,
+        "scans": 6,
+        "battery_consumed": 48.0,
+        "location_error": 10.0,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 34,
+        "scans": 2,
+        "battery_consumed": 37.0,
+        "location_error": 10.63014581273465,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      },
+      {
+        "success": false,
+        "steps": 37,
+        "scans": 3,
+        "battery_consumed": 42.0,
+        "location_error": 10.63014581273465,
+        "budget_exhausted": false,
+        "status": "FAILED_INCORRECT_REPORT"
+      }
+    ]
+  }
+}

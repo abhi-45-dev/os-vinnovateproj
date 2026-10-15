@@ -1,0 +1,14 @@
+{
+  "scenarios": [
+    {
+      "id": "sample_mission",
+      "name": "Sample Mission (12x12 - Earth Ruins)",
+      "path": "config/sample_mission.json"
+    },
+    {
+      "id": "challenging_mission",
+      "name": "Challenging Mission (16x16 - Industrial Canyons)",
+      "path": "config/challenging_mission.json"
+    }
+  ]
+}
